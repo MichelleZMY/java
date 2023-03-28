@@ -37,7 +37,7 @@ jobs:
           echo "CRD Api Group Prefix Args: ${CRD_API_GROUP_ARGS}"
           mkdir -p ${GEN_DIR}
           ls
-          ls yaml
+          ls ./yaml
           pwd
           docker run \
             --rm \
