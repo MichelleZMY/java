@@ -36,6 +36,7 @@ jobs:
           echo "CRD Src Args: ${CRD_SRC_ARGS}"
           echo "CRD Api Group Prefix Args: ${CRD_API_GROUP_ARGS}"
           mkdir -p ${GEN_DIR}
+          ls
           docker run \
             --rm \
             -v /var/run/docker.sock:/var/run/docker.sock \
